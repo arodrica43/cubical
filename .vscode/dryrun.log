@@ -1,0 +1,10 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/dell/AppData/Roaming/agda/cubical'
+C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe AGDA_EXEC=agda gen-everythings check
+make[1]: Entering directory 'c:/Users/dell/AppData/Roaming/agda/cubical'
+runhaskell ./Everythings.hs gen-except Core Foundations Codata Experiments
+agda +RTS -H3G -RTS Cubical/README.agda
+agda +RTS -H3G -RTS Cubical/WithK.agda
+make[1]: Leaving directory 'c:/Users/dell/AppData/Roaming/agda/cubical'
+make: Leaving directory 'c:/Users/dell/AppData/Roaming/agda/cubical'
+ 

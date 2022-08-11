@@ -1,0 +1,3498 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe AGDA_EXEC=agda gen-everythings check
+ 
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Thu Aug 11 12:55:50 2022
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+_MSYS2_BASH = C:\tools\msys64\usr\bin\bash.exe
+# environment
+USERPROFILE = C:\Users\dell
+# environment
+LOCAL_GIT_DIRECTORY = C:\Users\dell\AppData\Local\GitHubDesktop\app-3.0.5\resources\app\git
+# environment
+LOCALAPPDATA = C:\Users\dell\AppData\Local
+# environment
+VSCODE_CWD = C:\Users\dell\AppData\Local\GitHubDesktop\app-3.0.5
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\Windows
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8508_PQMQFFXUFIGCKAJY
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\dell\AppData\Roaming\Code\CachedData\6d9b74a70ca9c7733b29f0456fd8195364076dda
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\dell\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrRw -- $(MAKEOVERRIDES)
+# environment
+ONEDRIVE = C:\Users\dell\OneDrive
+# makefile
+CURDIR := c:/Users/dell/AppData/Roaming/agda/cubical
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrRw
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'GNUmakefile', line 1)
+MAKEFILE_LIST := GNUmakefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 8508
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# makefile (from 'GNUmakefile', line 7)
+RUNHASKELL = runhaskell
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"58ee994e295d58ff8ba81b345e5d3728.es","_translationsConfigFile":"C:\\Users\\dell\\AppData\\Roaming\\Code\\clp\\58ee994e295d58ff8ba81b345e5d3728.es\\tcf.json","_cacheRoot":"C:\\Users\\dell\\AppData\\Roaming\\Code\\clp\\58ee994e295d58ff8ba81b345e5d3728.es","_resolvedLanguagePackCoreLocation":"C:\\Users\\dell\\AppData\\Roaming\\Code\\clp\\58ee994e295d58ff8ba81b345e5d3728.es\\6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"C:\\Users\\dell\\AppData\\Roaming\\Code\\clp\\58ee994e295d58ff8ba81b345e5d3728.es\\corrupted.info","_languagePackSupport":true}
+# command line
+AGDA_EXEC = agda
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\dell
+# default
+MAKECMDGOALS := gen-everythings check
+# makefile (from 'GNUmakefile', line 4)
+FIX_WHITESPACE = fix-whitespace
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 1
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files\dotnet\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\GnuWin32\bin;C:\Dev-Cpp\bin;C:\Program Files\AutoFirma\AutoFirma;C:\Users\dell\.cargo\bin;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;C:\Users\dell\AppData\Roaming\cabal\bin;C:\tools\ghc-9.0.1\bin;C:\tools\msys64;C:\ProgramData\dell\GitHubDesktop\bin;C:\ProgramData\Dell\GitHubDesktop\bin;C:\Users\dell\AppData\Local\GitHubDesktop\bin;C:\Users\dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dell\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\dell\AppData\Roaming\npm;C:\Program Files\heroku\bin
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = DESKTOP-8O57SPD
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+_MSYS2_PREFIX = x86_64
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132799039447507080
+# environment
+LOGONSERVER = \\DESKTOP-8O57SPD
+# environment
+USERNAME = dell
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'GNUmakefile', line 2)
+AGDA_FLAGS = -W error
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-8O57SPD
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile (from 'GNUmakefile', line 1)
+AGDA_BIN = agda
+# makefile (from 'GNUmakefile', line 8)
+EVERYTHINGS = $(RUNHASKELL) ./Everythings.hs
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+MAKEOVERRIDES = ${-*-command-variables-*-}
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-8O57SPD
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+PUBLIC = C:\Users\Public
+# automatic
+-*-command-variables-*- := AGDA_EXEC=agda
+# environment
+APPDATA = C:\Users\dell\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHIT 
+ECTURE = x86
+# makefile (from 'GNUmakefile', line 6)
+AGDA = $(AGDA_EXEC) $(RTS_OPTIONS)
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# makefile (from 'GNUmakefile', line 5)
+RTS_OPTIONS = +RTS -H3G -RTS
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\dell\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\200ef07548169b4e3559d61606c7ffb6-1.70.1-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 8e09
+# environment
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+# variable set hash-table stats:
+# Load=108/1024=11%, Rehash=0, Collisions=13/150=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# Cubical/Relation (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Relation, mtime 1652298863): 7 files, no impossibilities.
+# Cubical/Algebra (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Algebra, mtime 1653321113): 39 files, no impossibilities.
+# Cubical/Syntax (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Syntax, mtime 1652298863): 3 files, no impossibilities.
+# Cubical/Axiom (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Axiom, mtime 1653321113): 3 files, no impossibilities.
+# Cubical/Modalities (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Modalities, mtime 1653321113): 4 files, no impossibilities.
+# Cubical/Papers (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Papers, mtime 1653321113): 5 files, no impossibilities.
+# Cubical/Functions (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Functions, mtime 1653321113): 12 files, no impossibilities.
+# Cubical/Displayed (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Displayed, mtime 1652298863): 15 files, no impossibilities.
+# Cubical/Cohomology (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Cohomology, mtime 1653321113): 3 files, no impossibilities.
+# Cubical/Data (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Data, mtime 1653321113): 52 files, no impossibilities.
+# Cubical/Talks (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Talks, mtime 1652298863): 3 files, no impossibilities.
+# Cubical/ZCohomology (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/ZCohomology, mtime 1653321113): 11 files, no impossibilities.
+# Cubical/HITs (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/HITs, mtime 1653321113): 88 files, no impossibilities.
+# Cubical/Reflection (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Reflection, mtime 1652298863): 5 files, no impossibilities.
+# Cubical/Experiments (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Experiments, mtime 1653321113): 26 files, no impossibilities.
+# . (key c:/Users/dell/AppData/Roaming/agda/cubical, mtime 1655323839): 13 files, no impossibilities so far.
+# Cubical/Codata (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Codata, mtime 1653321113): 10 files, no impossibilities.
+# Cubical/Induction (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Induction, mtime 1653321113): 3 files, no impossibilities.
+# Cubical/Core (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Core, mtime 1653321113): 7 files, no impossibilities.
+# Cubical/Structures (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Structures, mtime 1653321113): 19 files, no impossibilities.
+# Cubical/Homotopy (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Homotopy, mtime 1653321113): 17 files, no impossibilities.
+# Cubical/Categories (key c:/Users/dell/AppData/Roaming/agda 
+/cubical/Cubical/Categories, mtime 1653321113): 30 files, no impossibilities.
+# Cubical/Foundations (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Foundations, mtime 1653321113): 22 files, no impossibilities.
+
+# 397 files, no impossibilities in 23 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Cubical/Categories/Equivalence.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/EilenbergMacLane1.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/NatPlusOne.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/GroupoidTruncation.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Constant.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/FinSet.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/Generic.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Wedge.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/TypeQuotients.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/FreeGroupoid.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+check: gen-everythings
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+#  recipe to execute (from 'GNUmakefile', line 53):
+	$(AGDA) Cubical/README.agda
+	$(AGDA) Cubical/WithK.agda
+
+# Not a target:
+Cubical/Data/FinData.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Nullification.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/S2.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/MayerVietorisCofiber.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Function.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Bool.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/Implicit.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/Module.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/IsoInt.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/Bundle.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Colimit.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Pointed.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/FiniteMultiset.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Reflection/Base.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Queue.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Interval.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/CohomologyGroups.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/SymmetricGroup.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Cohomology/Base.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Sigma.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/LeftAction.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/List.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/ListedFiniteSet.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/SIP.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Syntax/??.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Papers/ZCohomology.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Powerset.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/HLevels.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Maybe.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Sum.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Relation/Nullary.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Empty.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/Fixpoint.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/CommMonoid.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+gen-and-check-everythings:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 42):
+	$(EVERYTHINGS) gen-except Core Foundations Codata Experiments
+	$(EVERYTHINGS) check Core Foundations Codata
+
+# Not a target:
+Cubical/Algebra/Semilattice.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/WedgeConnectivity.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Papers/Synthetic.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Isomorphism.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Codata/Stream.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not 
+ a target:
+Cubical/Categories/Presheaf.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/Monoid.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/NatMinusTwo.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Yoneda.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/FreeAbGroup.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/Problem.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Product.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Int.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Prod.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+debug:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 70):
+	@echo "AGDA_BIN              = $(AGDA_BIN)"
+	@echo "AGDA_FLAGS            = $(AGDA_FLAGS)"
+	@echo "AGDA_EXEC             = $(AGDA_EXEC)"
+	@echo "AGDA                  = $(AGDA)"
+
+# Not a target:
+Cubical/HITs/S1.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Constant.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/FinInd.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Auto.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+check-README:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 47):
+	$(EVERYTHINGS) check-README
+
+listings: Cubical/Algebra/AbGroup.agda Cubical/Algebra/Algebra.agda Cubical/Algebra/CommAlgebra.agda Cubical/Algebra/CommMonoid.agda Cubical/Algebra/CommRing.agda Cubical/Algebra/DistLattice.agda Cubical/Algebra/Group.agda Cubical/Algebra/Lattice.agda Cubical/Algebra/Matrix.agda Cubical/Algebra/Module.agda Cubical/Algebra/Monoid.agda Cubical/Algebra/Ring.agda Cubical/Algebra/Semigroup.agda Cubical/Algebra/Semilattice.agda Cubical/Algebra/SymmetricGroup.agda Cubical/Axiom/Omniscience.agda Cubical/Categories/Abelian.agda Cubical/Categories/Additive.agda Cubical/Categories/Adjoint.agda Cubical/Categories/Category.agda Cubical/Categories/Commutativity.agda Cubical/Categories/Equivalence.agda Cubical/Categories/Functor.agda Cubical/Categories/Limits.agda Cubical/Categories/Monoidal.agda Cubical/Categories/Morphism.agda Cubical/Categories/NaturalTransformation.agda Cubical/Categories/Presheaf.agda Cubical/Categories/Yoneda.agda Cubical/Codata/Conat.agda Cubical/Codata/Everything.agda Cubical/Codata/EverythingSafe.agda Cubical/Codata/M.agda Cubical/Codata/Stream.agda Cubical/Cohomology/Base.agda Cubical/Core/Everything.agda Cubical/Core/Glue.agda Cubical/Core/Id.agda Cubical/Core/Primitives.agda Cubical/Data/BinNat.agda Cubical/Data/Bool.agda Cubical/Data/DescendingList.agda Cubical/Data/Empty.agda Cubical/Data/Equality.agda Cubical/Data/Fin.agda Cubical/Data/FinData.agda Cubical/Data/FinInd.agda Cubical/Data/FinSet.agda Cubical/Data/FinType.agda Cubical/Data/Graph.agda Cubical/Data/InfNat.agda Cubical/Data/Int.agda Cubical/Data/List.agda Cubical/Data/Maybe.agda Cubical/Data/Nat.agda Cubical/Data/NatMinusOne.agda Cubical/Data/NatPlusOne.agda Cubical/Data/Prod.agda Cubical/Data/Queue.agda Cubical/Data/Sigma.agda Cubical/Data/SubFinSet.agda Cubical/Data/Sum.agda Cubical/Data/SumFin.agda Cubical/Data/Unit.agda Cubical/Data/Vec.agda Cubical/Displayed/Auto.agda Cubical/Displayed/Base.agda Cubical/Displayed/Constant.agda Cubical/Displayed/Function.agda Cubical/Displayed/Generic.agda Cubical/Displayed/Morphism.agda Cubical/Displayed/Prop.agda Cubical/Displayed/Properties.agda Cubical/Displayed/Record.agda Cubical/Displayed/Sigma.agda Cubical/Displayed/Subst.agda Cubical/Displayed/Unit.agda Cubical/Displayed/Universe.agda Cubical/Experiments/CohomologyGroups.agda Cubical/Experiments/Combinatorics.agda Cubical/Experiments/CountingFiniteStructure.agda Cubical/Experiments/EscardoSIP.agda Cubical/Experiments/Everything.agda Cubical/Experiments/FunExtFromUA.agd 
+a Cubical/Experiments/Generic.agda Cubical/Experiments/HAEquivInt.agda Cubical/Experiments/HInt.agda Cubical/Experiments/HoTT-UF.agda Cubical/Experiments/IntegerMatrix.agda Cubical/Experiments/IsoInt.agda Cubical/Experiments/List.agda Cubical/Experiments/LocalisationDefs.agda Cubical/Experiments/NatMinusTwo.agda Cubical/Experiments/Poset.agda Cubical/Experiments/Problem.agda Cubical/Experiments/ZCohomologyExperiments.agda Cubical/Experiments/ZariskiLatticeBasicOpens.agda Cubical/Foundations/CartesianKanOps.agda Cubical/Foundations/Equiv.agda Cubical/Foundations/Everything.agda Cubical/Foundations/Function.agda Cubical/Foundations/GroupoidLaws.agda Cubical/Foundations/HLevels.agda Cubical/Foundations/Id.agda Cubical/Foundations/Isomorphism.agda Cubical/Foundations/Path.agda Cubical/Foundations/Pointed.agda Cubical/Foundations/Powerset.agda Cubical/Foundations/Prelude.agda Cubical/Foundations/RelationalStructure.agda Cubical/Foundations/SIP.agda Cubical/Foundations/Structure.agda Cubical/Foundations/Transport.agda Cubical/Foundations/Univalence.agda Cubical/Functions/Bundle.agda Cubical/Functions/Embedding.agda Cubical/Functions/Fibration.agda Cubical/Functions/Fixpoint.agda Cubical/Functions/FunExtEquiv.agda Cubical/Functions/Implicit.agda Cubical/Functions/Involution.agda Cubical/Functions/Logic.agda Cubical/Functions/Morphism.agda Cubical/Functions/Surjection.agda Cubical/HITs/2GroupoidTruncation.agda Cubical/HITs/AssocList.agda Cubical/HITs/Bouquet.agda Cubical/HITs/Colimit.agda Cubical/HITs/Cost.agda Cubical/HITs/CumulativeHierarchy.agda Cubical/HITs/Cylinder.agda Cubical/HITs/DunceCap.agda Cubical/HITs/EilenbergMacLane1.agda Cubical/HITs/FiniteMultiset.agda Cubical/HITs/FreeAbGroup.agda Cubical/HITs/FreeComMonoids.agda Cubical/HITs/FreeGroup.agda Cubical/HITs/FreeGroupoid.agda Cubical/HITs/GroupoidQuotients.agda Cubical/HITs/GroupoidTruncation.agda Cubical/HITs/InfNat.agda Cubical/HITs/Interval.agda Cubical/HITs/James.agda Cubical/HITs/Join.agda Cubical/HITs/KleinBottle.agda Cubical/HITs/ListedFiniteSet.agda  
+Cubical/HITs/Localization.agda Cubical/HITs/MappingCones.agda Cubical/HITs/Modulo.agda Cubical/HITs/Nullification.agda Cubical/HITs/PropositionalTruncation.agda Cubical/HITs/Pushout.agda Cubical/HITs/RPn.agda Cubical/HITs/S1.agda Cubical/HITs/S2.agda Cubical/HITs/S3.agda Cubical/HITs/SequentialColimit.agda Cubical/HITs/SetQuotients.agda Cubical/HITs/SetTruncation.agda Cubical/HITs/SmashProduct.agda Cubical/HITs/Sn.agda Cubical/HITs/Susp.agda Cubical/HITs/Torus.agda Cubical/HITs/Truncation.agda Cubical/HITs/TypeQuotients.agda Cubical/HITs/Wedge.agda Cubical/Homotopy/Base.agda Cubical/Homotopy/BlakersMassey.agda Cubical/Homotopy/Connected.agda Cubical/Homotopy/EilenbergSteenrod.agda Cubical/Homotopy/Freudenthal.agda Cubical/Homotopy/HSpace.agda Cubical/Homotopy/Hopf.agda Cubical/Homotopy/Loopspace.agda Cubical/Homotopy/MayerVietorisCofiber.agda Cubical/Homotopy/Prespectrum.agda Cubical/Homotopy/Spectrum.agda Cubical/Homotopy/WedgeConnectivity.agda Cubical/Homotopy/Whitehead.agda Cubical/Induction/WellFounded.agda Cubical/Modalities/Lex.agda Cubical/Modalities/Modality.agda Cubical/Papers/RepresentationIndependence.agda Cubical/Papers/Synthetic.agda Cubical/Papers/ZCohomology.agda Cubical/Reflection/Base.agda Cubical/Reflection/RecordEquiv.agda Cubical/Reflection/StrictEquiv.agda Cubical/Relation/Binary.agda Cubical/Relation/Nullary.agda Cubical/Structures/Auto.agda Cubical/Structures/Axioms.agda Cubical/Structures/Constant.agda Cubical/Structures/Function.agda Cubical/Structures/LeftAction.agda Cubical/Structures/Macro.agda Cubical/Structures/Maybe.agda Cubical/Structures/MultiSet.agda Cubical/Structures/Parameterized.agda Cubical/Structures/Pointed.agda Cubical/Structures/Product.agda Cubical/Structures/Queue.agda Cubical/Structures/Record.agda Cubical/Structures/Successor.agda Cubical/Structures/Transfer.agda Cubical/Structures/TypeEqvTo.agda Cubical/Syntax/??.agda Cubical/Talks/EPA2020.agda Cubical/ZCohomology/Base.agda Cubical/ZCohomology/EilenbergSteenrodZ.agda Cubical/ZCohomology/GroupStructure.agda Cubical/ZCohomology/Gysin.agda Cubical/ZCohomology/MayerVietorisUnreduced.agda Cubical/ZCohomology/Properties.agda
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 62):
+	$(AGDA) -i. -isrc --html Cubical/README.agda -v0
+
+# Not a target:
+Cubical/Foundations/CartesianKanOps.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been update 
+d.
+
+# Not a target:
+Cubical/Foundations/Everything.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/SmashProduct.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/Poset.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Commutativity.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/HSpace.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Relation/Binary.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Bouquet.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/InfNat.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/FunExtEquiv.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/NaturalTransformation.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/EilenbergSteenrod.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Function.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Codata/Everything.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/Fibration.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/FinType.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Macro.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/RPn.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Reflection/StrictEquiv.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Monoidal.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Graph.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/MultiSet.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/FreeComMonoids.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/BinNat.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 66):
+	find . -type f -name '*.agdai' -delete
+
+# Not a target:
+Cubical/Data/Unit.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Prelude.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/S3.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/ZCohomology/GroupStructure.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Sigma.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+gen-everythings:
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := gen-everythings
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/13=15%
+#  recipe to execute (from 'GNUmakefile', line 38):
+	$(EVERYTHINGS) gen-except Core Foundations Codata Experiments
+
+# Not a target:
+Cubical/HITs/Cylinder.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+fix-whitespace:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 24):
+	$(FIX_WHITESPACE)
+
+# Not a target:
+Cubical/Algebra/Matrix.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/HInt.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Generic.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/KleinBottle.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/SubFinSet.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/Spectrum.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Morphism.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/ZariskiLatticeBasicOpens.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Join.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/ZCohomology/Properties.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/CommRing.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/CountingFiniteStructure.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Equality.agda:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Axioms.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Axiom/Omniscience.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Cost.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/LocalisationDefs.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Transport.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Equiv.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Structure.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/PropositionalTruncation.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/Embedding.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/Everything.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/AbGroup.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/Combinatorics.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Pointed.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Morphism.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/InfNat.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Truncation.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/Logic.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/2GroupoidTruncation.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+timings: clean gen-everythings
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 58):
+	$(AGDA) -v profile.modules:10 Cubical/README.agda
+
+# Not a target:
+Cubical/HITs/Localization.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/Hopf.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Universe.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/GroupoidLaws.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Univalence.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Function.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/GroupoidQuotients.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: build
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/EscardoSIP.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/ZCohomology/Gysin.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/SumFin.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Prop.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Parameterized.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Induction/WellFounded.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Auto.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+check-everythings:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 34):
+	$(EVERYTHINGS) check-except Experiments
+
+# Not a target:
+Cubical/ZCohomology/Base.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 15):
+	$(MAKE) AGDA_EXEC=$(AGDA_BIN) gen-everythings check
+
+# Not a target:
+Cubical/Data/Nat.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/SetTruncation.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/ZCohomologyExperiments.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/AssocList.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Torus.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Reflection/RecordEquiv.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Core/Everything.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/Algebra.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+C 
+ubical/Codata/Conat.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Subst.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Fin.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/SetQuotients.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test: check-whitespace gen-and-check-everythings check-README check
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/FreeGroup.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/DunceCap.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/NatMinusOne.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/Group.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Vec.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/ZCohomology/EilenbergSteenrodZ.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/Ring.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Adjoint.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Record.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/MappingCones.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Talks/EPA2020.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Pushout.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/BlakersMassey.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Path.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Core/Glue.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Transfer.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Successor.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/RelationalStructure.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Record.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Core/Id.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/HAEquivInt.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/CommAlgebra.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/Prespectrum.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Id.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Functor.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/Lattice.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Abelian.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/Involution.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/SequentialColimit.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/Morphism.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Limits.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Core/Primitives.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/James.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+check-whitespace:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 28):
+	$(FIX_WHITESPACE) --check
+
+# Not a target:
+Cubical/Functions/Surjection.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Susp.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Codata/EverythingSafe.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Modalities/Lex.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/TypeEqvTo.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/Loopspace.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Codata/M.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Unit.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/DescendingList.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/HoTT-UF.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/ZCohomology/MayerVietorisUnreduced.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Category.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implici 
+t rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all build test fix-whitespace check-whitespace check-everythings gen-everythings gen-and-check-everythings check-README check timings listings clean debug
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Additive.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Sn.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Modulo.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/Whitehead.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Maybe.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/FunExtFromUA.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/Base.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/Semigroup.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Properties.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-11 21:54:23
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Cubical/HITs/CumulativeHierarchy.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Queue.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/DistLattice.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Base.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Papers/RepresentationIndependence.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/Connected.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Modalities/Modality.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/IntegerMatrix.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/List.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/Freudenthal.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=232/1024=23%, Rehash=0, Collisions=69/506=14%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 2 (0) / strings = 580 / storage = 11430 B / avg = 19 B
+# current buf: size = 8174 B / used = 3279 B / count = 105 / avg = 31 B
+# other used: total = 8151 B / count = 475 / avg = 17 B
+# other free: total = 23 B / max = 23 B / min = 23 B / avg = 23 B
+
+# strcache performance: lookups = 721 / hit rate = 19%
+# hash-table stats:
+# Load=580/8192=7%, Rehas 
+h=0, Collisions=19/721=3%
+# Finished Make data base on Thu Aug 11 12:55:50 2022
+
+ 
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Thu Aug 11 12:55:50 2022
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+_MSYS2_BASH = C:\tools\msys64\usr\bin\bash.exe
+# environment
+USERPROFILE = C:\Users\dell
+# environment
+LOCAL_GIT_DIRECTORY = C:\Users\dell\AppData\Local\GitHubDesktop\app-3.0.5\resources\app\git
+# environment
+LOCALAPPDATA = C:\Users\dell\AppData\Local
+# environment
+VSCODE_CWD = C:\Users\dell\AppData\Local\GitHubDesktop\app-3.0.5
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\Windows
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8508_PQMQFFXUFIGCKAJY
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\dell\AppData\Roaming\Code\CachedData\6d9b74a70ca9c7733b29f0456fd8195364076dda
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\dell\AppData\Local\Temp
+# defa 
+ult
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\dell\OneDrive
+# makefile
+CURDIR := c:/Users/dell/AppData/Roaming/agda/cubical
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'GNUmakefile', line 1)
+MAKEFILE_LIST := GNUmakefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 8508
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# makefile (from 'GNUmakefile', line 7)
+RUNHASKELL = runhaskell
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"58ee994e295d58ff8ba81b345e5d3728.es","_translationsConfigFile":"C:\\Users\\dell\\AppData\\Roaming\\Code\\clp\\58ee994e295d58ff8ba81b345e5d3728.es\\tcf.json","_cacheRoot":"C:\\Users\\dell\\AppData\\Roaming\\Code\\clp\\58ee994e295d58ff8ba81b345e5d3728.es","_resolvedLanguagePackCoreLocation":"C:\\Users\\dell\\AppData\\Roaming\\Code\\clp\\58ee994e295d58ff8ba81b345e5d3728.es\\6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"C:\\Users\\dell\\AppData\\Roaming\\Code\\clp\\58ee994e295d58ff8ba81b345e5d3728.es\\corrupted.info","_languagePackSupport":true}
+# makefile (from 'GNUmakefile', line 3)
+AGDA_EXEC = $(AGDA_BIN) $(AGDA_FLAGS)
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\dell
+# default
+MAKECMDGOALS := all
+# makefile (from 'GNUmakefile', line 4)
+FIX_WHITESPACE = fix-whitespace
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# en 
+vironment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files\dotnet\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\nodejs\;C:\GnuWin32\bin;C:\Dev-Cpp\bin;C:\Program Files\AutoFirma\AutoFirma;C:\Users\dell\.cargo\bin;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;C:\Users\dell\AppData\Roaming\cabal\bin;C:\tools\ghc-9.0.1\bin;C:\tools\msys64;C:\ProgramData\dell\GitHubDesktop\bin;C:\ProgramData\Dell\GitHubDesktop\bin;C:\Users\dell\AppData\Local\GitHubDesktop\bin;C:\Users\dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dell\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\dell\AppData\Roaming\npm;C:\Program Files\heroku\bin
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = DESKTOP-8O57SPD
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+_MSYS2_PREFIX = x86_64
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132799039447507080
+# environment
+LOGONSERVER = \\DESKTOP-8O57SPD
+# environment
+USERNAME = dell
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'GNUmakefile', line 2)
+AGDA_FLAGS = -W error
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-8O57SPD
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile (from 'GNUmakefile', line 1)
+AGDA_BIN = agda
+# makefile (from 'GNUmakefile', line 8)
+EVERYT 
+HINGS = $(RUNHASKELL) ./Everythings.hs
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-8O57SPD
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\dell\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# makefile (from 'GNUmakefile', line 6)
+AGDA = $(AGDA_EXEC) $(RTS_OPTIONS)
+# environment
+VSC 
+ODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# makefile (from 'GNUmakefile', line 5)
+RTS_OPTIONS = +RTS -H3G -RTS
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\dell\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\200ef07548169b4e3559d61606c7ffb6-1.70.1-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\Pro 
+gramData
+# environment
+SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 8e09
+# environment
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+# variable set hash-table stats:
+ 
+# Load=106/1024=10%, Rehash=0, Collisions=10/145=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# Cubical/Relation (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Relation, mtime 1652298863): 7 files, no impossibilities.
+# Cubical/Algebra (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Algebra, mtime 1653321113): 39 files, no impossibilities.
+# Cubical/Syntax (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Syntax, mtime 1652298863): 3 files, no impossibilities.
+# Cubical/Axiom (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Axiom, mtime 1653321113): 3 files, no impossibilities.
+# Cubical/Modalities (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Modalities, mtime 1653321113): 4 files, no impossibilities.
+# Cubical/Papers (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Papers, mtime 1653321113): 5 files, no impossibilities.
+# Cubical/Functions (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Functions, mtime  
+1653321113): 12 files, no impossibilities.
+# Cubical/Displayed (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Displayed, mtime 1652298863): 15 files, no impossibilities.
+# Cubical/Cohomology (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Cohomology, mtime 1653321113): 3 files, no impossibilities.
+# Cubical/Data (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Data, mtime 1653321113): 52 files, no impossibilities.
+# Cubical/Talks (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Talks, mtime 1652298863): 3 files, no impossibilities.
+# Cubical/ZCohomology (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/ZCohomology, mtime 1653321113): 11 files, no impossibilities.
+# Cubical/HITs (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/HITs, mtime 1653321113): 88 files, no impossibilities.
+# Cubical/Reflection (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Reflection, mtime 1652298863): 5 files, no impossibilities.
+# Cubical/Experiments (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Experiments, mtime 1653321113): 26 files, no impossibilities.
+# . (key c:/Users/dell/AppData/Roaming/agda/cubical, mtime 1655323839): 13 files, no impossibilities so far.
+# Cubical/Codata (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Codata, mtime 1653321113): 10 files, no impossibilities.
+# Cubical/Induction (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Induction, mtime 1653321113): 3 files, no impossibilities.
+# Cubical/Core (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Core, mtime 1653321113): 7 files, no impossibilities.
+# Cubical/Structures (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Structures, mtime 1653321113): 19 files, no impossibilities.
+# Cubical/Homotopy (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Homotopy, mtime 1653321113): 17 files, no impossibilities.
+# Cubical/Categories (key c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Categories, mtime 1653321113): 30 files, no impossibilities.
+# Cubical/Foundations (key  
+c:/Users/dell/AppData/Roaming/agda/cubical/Cubical/Foundations, mtime 1653321113): 22 files, no impossibilities.
+
+# 397 files, no impossibilities in 23 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Cubical/Categories/Equivalence.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/EilenbergMacLane1.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  
+ File has not been updated.
+
+# Not a target:
+Cubical/Data/NatPlusOne.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/GroupoidTruncation.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Constant.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/FinSet.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/Generic.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Wedge.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/TypeQuotients.agda:
+#   
+Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/FreeGroupoid.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+check: gen-everythings
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 53):
+	$(AGDA) Cubical/README.agda
+	$(AGDA) Cubical/WithK.agda
+
+# Not a target:
+Cubical/Data/FinData.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Nullification.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/S2.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/MayerVietorisCofiber.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Function.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Bool.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/Implicit.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/Module.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/IsoInt.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/Bundle.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Colimit.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Pointed.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/FiniteMultiset.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Reflection/Base.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Queue.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Interval.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/CohomologyGroups.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/SymmetricGroup.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Cohomology/Base.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Sigma.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/LeftAction.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/List.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/ListedFiniteSet.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/SIP.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Syntax/??.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Papers/ZCohomology.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Powerset.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/HLevels.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Maybe.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Sum.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Relation/Nullary.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Empty.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/Fixpoint.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/CommMonoid.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+gen-and-check-everythings:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 42):
+	$(EVERYTHINGS) gen-except Core Foundations Codata Experiments
+	$(EVERYTHINGS) check Core Foundations Codata
+
+# Not a target:
+Cubical/Algebra/Semilattice.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/WedgeConnectivity.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Papers/Synthetic.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#   
+File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Isomorphism.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Codata/Stream.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Presheaf.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not  
+a target:
+Cubical/Algebra/Monoid.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/NatMinusTwo.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Yoneda.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/FreeAbGroup.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/Problem.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Product.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Int.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Prod.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+debug:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 70):
+	@echo "AGDA_BIN              = $(AGDA_BIN)"
+	@echo "AGDA_FLAGS            = $(AGDA_FLAGS)"
+	@echo "AGDA_EXEC             = $(AGDA_EXEC)"
+	@echo "AGDA                  = $(AGDA)"
+
+# Not a target:
+Cubical/HITs/S1.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Constant.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/FinInd.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Auto.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+check-README:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 47):
+	$(EVERYTHINGS) check-README
+
+listings: Cubical/Algebra/AbGroup.agda Cubical/Algebra/Algebra.agda Cubical/Algebra/CommAlgebra.agda Cubical/Algebra/CommMonoid.agda Cubical/Algebra/CommRing.agda Cubical/Algebra/DistLattice.agda Cubical/Algebra/Group.agda Cubical/Algebra/Lattice.agda Cubical/Algebra/Matrix.agda Cubical/Algebra/Module.agda Cubical/Algebra/Monoid.agda Cubical/Algebra/Ring.agda Cubical/Algebra/Semigroup.agda Cubical/Algebra/Semilattice.agda Cubical/Algebra/SymmetricGroup.agda Cubical/Axiom/Omniscience.agda Cubical/Categories/Abelian.agda Cubical/Categories/Additive.agda Cubical/Categories/Adjoint.agda Cubical/ 
+Categories/Category.agda Cubical/Categories/Commutativity.agda Cubical/Categories/Equivalence.agda Cubical/Categories/Functor.agda Cubical/Categories/Limits.agda Cubical/Categories/Monoidal.agda Cubical/Categories/Morphism.agda Cubical/Categories/NaturalTransformation.agda Cubical/Categories/Presheaf.agda Cubical/Categories/Yoneda.agda Cubical/Codata/Conat.agda Cubical/Codata/Everything.agda Cubical/Codata/EverythingSafe.agda Cubical/Codata/M.agda Cubical/Codata/Stream.agda Cubical/Cohomology/Base.agda Cubi 
+cal/Core/Everything.agda Cubical/Core/Glue.agda Cubical/Core/Id.agda Cubical/Core/Primitives.agda Cubical/Data/BinNat.agda Cubical/Data/Bool.agda Cubical/Data/DescendingList.agda Cubical/Data/Empty.agda Cubical/Data/Equality.agda Cubical/Data/Fin.agda Cubical/Data/FinData.agda Cubical/Data/FinInd.agda Cubical/Data/FinSet.agda Cubical/Data/FinType.agda Cubical/Data/Graph.agda Cubical/Data/InfNat.agda Cubical/Data/Int.agda Cubical/Data/List.agda Cubical/Data/Maybe.agda Cubical/Data/Nat.agda Cubical/Data/NatMinusOne.agda Cubical/Data/NatPlusOne.agda Cubical/Data/Prod.agda Cubical/Data/Queue.agda Cubical/Data/Sigma.agda Cubical/Data/SubFinSet.agda Cubical/Data/Sum.agda Cubical/Data/SumFin.agda Cubical/Data/Unit.agda Cubical/Data/Vec.agda Cubical/Displayed/Auto.agda Cubical/Displayed/Base.agda Cubical/Displayed/Constant.agda Cubical/Displayed/Function.agda Cubical/Displayed/Generic.agda Cubical/Displayed/Morphism.agda Cubical/Displayed/Prop.agda Cubical/Displayed/Properties.agda Cubical/Displayed/Record.agda Cubic 
+al/Displayed/Sigma.agda Cubical/Displayed/Subst.agda Cubical/Displayed/Unit.agda Cubical/Displayed/Universe.agda Cubical/Experiments/CohomologyGroups.agda Cubical/Experiments/Combinatorics.agda Cubical/Experiments/CountingFiniteStructure.agda Cubical/Experiments/EscardoSIP.agda Cubical/Experiments/Everything.agda Cubical/Experiments/FunExtFromUA.agda Cubical/Experiments/Generic.agda Cubical/Experiments/HAEquivInt.agda Cubical/Experiments/HInt.agda Cubical/Experiments/HoTT-UF.agda Cubical/Experiments/Integer 
+Matrix.agda Cubical/Experiments/IsoInt.agda Cubical/Experiments/List.agda Cubical/Experiments/LocalisationDefs.agda Cubical/Experiments/NatMinusTwo.agda Cubical/Experiments/Poset.agda Cubical/Experiments/Problem.agda Cubical/Experiments/ZCohomologyExperiments.agda Cubical/Experiments/ZariskiLatticeBasicOpens.agda Cubical/Foundations/CartesianKanOps.agda Cubical/Foundations/Equiv.agda Cubical/Foundations/Everything.agda Cubical/Foundations/Function.agda Cubical/Foundations/GroupoidLaws.agda Cubical/Foundatio 
+ns/HLevels.agda Cubical/Foundations/Id.agda Cubical/Foundations/Isomorphism.agda Cubical/Foundations/Path.agda Cubical/Foundations/Pointed.agda Cubical/Foundations/Powerset.agda Cubical/Foundations/Prelude.agda Cubical/Foundations/RelationalStructure.agda Cubical/Foundations/SIP.agda Cubical/Foundations/Structure.agda Cubical/Foundations/Transport.agda Cubical/Foundations/Univalence.agda Cubical/Functions/Bundle.agda Cubical/Functions/Embedding.agda Cubical/Functions/Fibration.agda Cubical/Functions/Fixpoint.agda Cubical/Functions/FunExtEquiv.agda Cubical/Functions/Implicit.agda Cubical/Functions/Involution.agda Cubical/Functions/Logic.agda Cubical/Functions/Morphism.agda Cubical/Functions/Surjection.agda Cubical/HITs/2GroupoidTruncation.agda Cubical/HITs/AssocList.agda Cubical/HITs/Bouquet.agda Cubical/HITs/Colimit.agda Cubical/HITs/Cost.agda Cubical/HITs/CumulativeHierarchy.agda Cubical/HITs/Cylinder.agda Cubical/HITs/DunceCap.agda Cubical/HITs/EilenbergMacLane1.agda Cubical/HITs/FiniteMultiset.agda Cubical 
+/HITs/FreeAbGroup.agda Cubical/HITs/FreeComMonoids.agda Cubical/HITs/FreeGroup.agda Cubical/HITs/FreeGroupoid.agda Cubical/HITs/GroupoidQuotients.agda Cubical/HITs/GroupoidTruncation.agda Cubical/HITs/InfNat.agda Cubical/HITs/Interval.agda Cubical/HITs/James.agda Cubical/HITs/Join.agda Cubical/HITs/KleinBottle.agda Cubical/HITs/ListedFiniteSet.agda Cubical/HITs/Localization.agda Cubical/HITs/MappingCones.agda Cubical/HITs/Modulo.agda Cubical/HITs/Nullification.agda Cubical/HITs/PropositionalTruncation.agda Cubical/HITs/Pushout.agda Cubical/HITs/RPn.agda Cubical/HITs/S1.agda Cubical/HITs/S2.agda Cubical/HITs/S3.agda Cubical/HITs/SequentialColimit.agda Cubical/HITs/SetQuotients.agda Cubical/HITs/SetTruncation.agda Cubical/HITs/SmashProduct.agda Cubical/HITs/Sn.agda Cubical/HITs/Susp.agda Cubical/HITs/Torus.agda Cubical/HITs/Truncation.agda Cubical/HITs/TypeQuotients.agda Cubical/HITs/Wedge.agda Cubical/Homotopy/Base.agda Cubical/Homotopy/BlakersMassey.agda Cubical/Homotopy/Connected.agda Cubical/Homotopy/EilenbergSteenrod.agda Cubical/Homotopy/Freudenthal.agda Cubical/Homotopy/HSpace.agda Cubical/Homotopy/Hopf.agda Cubical/Homotopy/Loopspace.agda Cubical/Homotopy/MayerVietorisCofiber.agda Cubical/Homotopy/Prespectrum.agda Cubical/Homotopy/Spectrum.agda Cubical/Homotopy/WedgeConnectivity.agda Cubical/Homotopy/Whitehead.agda Cubical/Induction/WellFounded.agda Cubical/Modalities/Lex.agda Cubical/Modalities/Modality.agda Cubical/Papers/RepresentationIndependence.agda Cubical/Papers/Synthetic.agda Cubical/Papers/ZCoho 
+mology.agda Cubical/Reflection/Base.agda Cubical/Reflection/RecordEquiv.agda Cubical/Reflection/StrictEquiv.agda Cubical/Relation/Binary.agda Cubical/Relation/Nullary.agda Cubical/Structures/Auto.agda Cubical/Structures/Axioms.agda Cubical/Structures/Constant.agda Cubical/Structures/Function.agda Cubical/Structures/LeftAction.agda Cubical/Structures/Macro.agda Cubical/Structures/Maybe.agda Cubical/Structures/MultiSet.agda Cubical/Structures/Parameterized.agda Cubical/Structures/Pointed.agda Cubical/Structures/Product.agda Cubical/Structures/Queue.agda Cubical/Structures/Record.agda Cubical/Structures/Successor.agda Cubical/Structures/Transfer.agda Cubical/Structures/TypeEqvTo.agda Cubical/Syntax/??.agda Cubical/Talks/EPA2020.agda Cubical/ZCohomology/Base.agda Cubical/ZCohomology/EilenbergSteenrodZ.agda Cubical/ZCohomology/GroupStructure.agda Cubical/ZCohomology/Gysin.agda Cubical/ZCohomology/MayerVietorisUnreduced.agda Cubical/ZCohomology/Properties.agda
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 62):
+	$(AGDA) -i. -isrc --html Cubical/README.agda -v0
+
+# Not a target:
+Cubical/Foundations/CartesianKanOps.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Everything.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/SmashProduct.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/Poset.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Commutativity.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/H 
+omotopy/HSpace.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Relation/Binary.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Bouquet.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/InfNat.agda:
+#  Implicit rule search has no 
+t been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/FunExtEquiv.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/NaturalTransformation.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/EilenbergSteenrod.agda:
+#  Implicit rule search has not been don 
+e.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Function.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Codata/Everything.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/Fibration.agda:
+#  Implicit rule search has not been done.
+#  Modification time never chec 
+ked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/FinType.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Macro.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/RPn.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+C 
+ubical/Reflection/StrictEquiv.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Monoidal.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Graph.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/MultiSet.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/FreeComMonoids.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/BinNat.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 66):
+	find . -type f -name '*.agdai' -delete
+
+# Not a target:
+Cubical/Data/Unit.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Prelude.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/S3.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/ZCohomology/GroupStructure.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Sigma.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+gen-everythings:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 38):
+	$(EVERYTHINGS) gen-except Core Foundations Codata Experiments
+
+# Not a target:
+Cubical/HITs/Cylinder.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+fix-whitespace:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 24):
+	$(FIX_WHITESPACE)
+
+# Not a target:
+Cubical/Algebra/Matrix.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/HInt.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Generic.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/KleinBottle.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/SubFinSet.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/Spectrum.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Morphism.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/ZariskiLatticeBasicOpens.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Join.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/ZCohomology/Properties.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/CommRing.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/CountingFiniteStructure.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Equality.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Axioms.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Axiom/Omniscience.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Cost.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/LocalisationDefs.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Transport.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Equiv.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Structure.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/PropositionalTruncation.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/Embedding.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cub 
+ical/Experiments/Everything.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/AbGroup.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/Combinatorics.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Pointed.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Morphism.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/InfNat.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Truncation.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/Logic.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/2GroupoidTruncation.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+timings: clean gen-everythings
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 58):
+	$(AGDA) -v profile.modules:10 Cubical/README.agda
+
+# Not a target:
+Cubical/HITs/Localization.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/Hopf.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Universe.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/GroupoidLaws.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Univalence.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Function.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/GroupoidQuotients.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: build
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+# Not a target:
+Cubical/Experiments/EscardoSIP.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/ZCohomology/Gysin.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/SumFin.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Prop.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Parameterized.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Induction/WellFounded.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Auto.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+check-everythings:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 34):
+	$(EVERYTHINGS) check-except Experiments
+
+# Not a target:
+Cubical/ZCohomology/Base.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/14=14%
+#  recipe to execute (from 'GNUmakefile', line 15):
+	$(MAKE) AGDA_EXEC=$(AGDA_BIN) gen-everythings check
+
+# Not a target:
+Cubical/Data/Nat.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/SetTruncation.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/ZCohomologyExperiments.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/AssocList.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Torus.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Reflection/RecordEquiv.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Core/Everything.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/Algebra.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Codata/Conat.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Subst.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Fin.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/SetQuotients.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test: check-whitespace gen-and-check-everythings check-README check
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/FreeGroup.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/DunceCap.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/NatMinusOne.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/Group.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/Vec.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/ZCohomology/EilenbergSteenrodZ.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/Ring.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Adjoint.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Record.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/MappingCones.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Talks/EPA2020.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Pushout.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/BlakersMassey.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Path.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Core/Glue.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Transfer.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Successor.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/RelationalStructure.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Record.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Core/Id.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/HAEquivInt.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/CommAlgebra.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/Prespectrum.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Foundations/Id.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Functor.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/Lattice.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Abelian.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/Involution.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/SequentialColimit.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Functions/Morphism.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Limits.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Core/Primitives.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/James.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+check-whitespace:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'GNUmakefile', line 28):
+	$(FIX_WHITESPACE) --check
+
+# Not a target:
+Cubical/Functions/Surjection.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Susp.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Codata/EverythingSafe.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Modalities/Lex.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/TypeEqvTo.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/Loopspace.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Codata/M.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Unit.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/DescendingList.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/HoTT-UF.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/ZCohomology/MayerVietorisUnreduced.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Category.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all build test fix-whitespace check-whitespace check-everythings gen-everythings gen-and-check-everythings check-README check timings listings clean debug
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Categories/Additive.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Sn.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/HITs/Modulo.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/Whitehead.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Maybe.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/FunExtFromUA.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/Base.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/Semigroup.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Properties.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-11 21:54:23
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Cubical/HITs/CumulativeHierarchy.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Structures/Queue.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Algebra/DistLattice.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Displayed/Base.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Papers/RepresentationIndependence.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/Connected.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Modalities/Modality.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Experiments/IntegerMatrix.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Data/List.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cubical/Homotopy/Freudenthal.agda:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=232/1024=23%, Rehash=0, Collisions=69/507=14%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 2 (0) / strings = 580 / storage = 11430 B / avg = 19 B
+# current buf: size = 8174 B / used = 3279 B / count = 105 / avg = 31 B
+# other used: total = 8151 B / count = 475 / avg = 17 B
+# other free: total = 23 B / max = 23 B / min = 23 B / avg = 23 B
+
+# strcache performance: lookups = 719 / hit rate = 19%
+# hash-table stats:
+# Load=580/8192=7%, Rehash=0, Collisions=19/719=3%
+# Finished Make data base on Thu Aug 11 12:55:50 2022
+
+ 

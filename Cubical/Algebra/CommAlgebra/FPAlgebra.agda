@@ -25,7 +25,8 @@ open import Cubical.Data.Sigma
 open import Cubical.Data.Empty
 
 open import Cubical.HITs.PropositionalTruncation
-
+open import Cubical.HITs.SetQuotients renaming ([_] to [_]s ; _/_ to _/s_)
+open import Cubical.Algebra.CommRing.FGIdeal renaming (generatedIdeal to genIdealRing)
 open import Cubical.Algebra.CommRing
 open import Cubical.Algebra.CommRing.FGIdeal using (inclOfFGIdeal)
 open import Cubical.Algebra.CommAlgebra
@@ -74,6 +75,8 @@ module _ {R : CommRing ℓ} where
     open Cubical.Algebra.Algebra.Properties.AlgebraHoms
 
     relationsIdeal = generatedIdeal (Polynomials n) relation
+    zeroLocus : (A : CommAlgebra R ℓ) → Type ℓ
+    zeroLocus A = Σ[ v ∈ FinVec ⟨ A ⟩ n ] ((i : Fin m) → evPoly A (relation i) v ≡ 0a (snd A))
 
     abstract
       {-
@@ -84,7 +87,34 @@ module _ {R : CommRing ℓ} where
       FPAlgebra : CommAlgebra R ℓ
       FPAlgebra = Polynomials n / relationsIdeal
 
-      modRelations : CommAlgebraHom (Polynomials n) (Polynomials n / relationsIdeal)
+      open CommAlgebraStr (snd (Polynomials n))
+
+      makeFPMap : (f : ⟨ Polynomials n ⟩ → ⟨ Polynomials n ⟩) → 
+                  ((a b : ⟨ Polynomials n ⟩) → (r : a - b ∈ fst relationsIdeal) → 
+                  ∥ Σ (FinVec ⟨ Polynomials n ⟩ m) (λ x → (f a) - (f b) ≡ linearCombination (CommAlgebra→CommRing (Polynomials n)) x relation) ∥₁) → 
+                  (⟨ FPAlgebra ⟩ → ⟨ FPAlgebra ⟩ )
+      makeFPMap f H [ P ]s = [ (f P) ]s
+      makeFPMap f H  (eq/ a b r i) = eq/ (f a) (f b) (H a b r) i
+      makeFPMap f H (squash/ a b p q i j) = squash/ (makeFPMap f H a) (makeFPMap f H b) (cong (λ z → makeFPMap f H z) p) (cong (λ z → makeFPMap f H z) q) i j --cong (λ z → makeFPMap f H z) (isSetCommAlgebra FPAlgebra {!   !} {!   !} {! p  !} {!   !} i) j --cong (λ z → makeFPMap f z) (squash/ a b p q i) j
+
+      relationsIdeal2 : (relation2 : FinVec ⟨ Polynomials n ⟩ m) → IdealsIn (Polynomials n)
+      relationsIdeal2 relation2 = generatedIdeal (Polynomials n) relation2
+      FPAlgebra2 : (relation2 : FinVec ⟨ Polynomials n ⟩ m) → CommAlgebra R ℓ
+      FPAlgebra2 relation2 = Polynomials n / (relationsIdeal2 relation2)
+
+      makeFP1Char : ⟨ FPAlgebra ⟩ ≡ ⟨ Polynomials n / ( generatedIdeal (Polynomials n) relation) ⟩
+      makeFP1Char = refl
+      makeFP2Char : (relation2 : FinVec ⟨ Polynomials n ⟩ m) → ⟨ FPAlgebra2 relation2 ⟩ ≡ ⟨ Polynomials n / ( generatedIdeal (Polynomials n) relation2) ⟩
+      makeFP2Char rel = refl
+
+      makeFPMap2 : (relation2 : FinVec ⟨ Polynomials n ⟩ m) → (f : ⟨ Polynomials n ⟩ → ⟨ Polynomials n ⟩) → 
+                ((a b : ⟨ Polynomials n ⟩) → (r : a - b ∈ fst relationsIdeal) → ∥ Σ (FinVec ⟨ Polynomials n ⟩ m) (λ x → (f a) - (f b) ≡ linearCombination (CommAlgebra→CommRing (Polynomials n)) x relation2) ∥₁) → 
+                (⟨ FPAlgebra ⟩ → ⟨ FPAlgebra2 relation2 ⟩ )
+      makeFPMap2 rel f H [ P ]s = [ (f P) ]s -- [ (f P) ]s
+      makeFPMap2 rel f H  (eq/ a b r i) = eq/ (f a) (f b) (H a b r) i --eq/ (f a) (f b) (H a b r) i
+      makeFPMap2 rel f H (squash/ a b p q i j) = squash/ (makeFPMap2 rel f H a) (makeFPMap2 rel f H b) (cong (λ z → makeFPMap2 rel f H z) p) (cong (λ z → makeFPMap2 rel f H z) q) i j --squash/ (makeFPMap2 f rel H a) (makeFPMap2 f rel H b) (cong (λ z → makeFPMap f rel H z) p) (cong (λ z → makeFPMap f H z) q) i j --cong (λ z → makeFPMap f H z) (isSetCommAlgebra FPAlgebra {!   !} {!   !} {! p  !} {!   !} i) j --cong (λ z → makeFPMap f z) (squash/ a b p q i) j
+
+      modRelations : CommAlgebraHom (Polynomials n) FPAlgebra 
       modRelations = quotientMap (Polynomials n) relationsIdeal
 
       generator : (i : Fin n) → ⟨ FPAlgebra ⟩
@@ -175,8 +205,13 @@ module _ {R : CommRing ℓ} where
          Hom(R[I]/J,A) is isomorphic to the Set of roots of the generators of J
       -}
 
-      zeroLocus : (A : CommAlgebra R ℓ) → Type ℓ
-      zeroLocus A = Σ[ v ∈ FinVec ⟨ A ⟩ n ] ((i : Fin m) → evPoly A (relation i) v ≡ 0a (snd A))
+      makeZeroLocusTerm : (A : CommAlgebra R ℓ) → (v : FinVec ⟨ A ⟩ n) →  ((i : Fin m) → evPoly A (relation i) v ≡ 0a (snd A)) → zeroLocus A
+      makeZeroLocusTerm A v H = v , H
+
+      fromZeroLocus₁ : (A : CommAlgebra R ℓ) → zeroLocus A → FinVec ⟨ A ⟩ n
+      fromZeroLocus₁ A x = fst x 
+      fromZeroLocus₂ : (A : CommAlgebra R ℓ) → (x : zeroLocus A) → ((i : Fin m) → evPoly A (relation i) (fromZeroLocus₁ A x) ≡ 0a (snd A))
+      fromZeroLocus₂ A x = snd x
 
       inducedHomFP : (A : CommAlgebra R ℓ) →
                       zeroLocus A → CommAlgebraHom FPAlgebra A
@@ -341,3 +376,4 @@ module Instances {R : CommRing ℓ} where
   relations terminalCAlgFP = unitGen
   equiv terminalCAlgFP = equivFrom1≡0 R R[⊥]/⟨1⟩ (sym (⋆-lid 1a) ∙ relationsHold 0 unitGen zero)
     where open CommAlgebraStr (snd R[⊥]/⟨1⟩)
+  
